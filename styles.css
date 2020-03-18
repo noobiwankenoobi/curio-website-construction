@@ -206,7 +206,7 @@ hr {
 .construction {
     width: 60vw;
     height: 10vh;
-    background-color: yellow;
+    background-color: #FFE787;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,7 +231,8 @@ hr {
     margin: 32px;
 }
 
-.announcement-div h2 {
+
+.announcement-title {
     margin-top: 5vh;
 }
 
@@ -410,7 +411,17 @@ footer {
         padding: 10px;
         margin: 2vh;
         text-align: center;
-        width: 80%;
+        width: 100%;
+    }
+
+    .curio-hours-div h3 {
+        /* font-size: 16px; */
+        text-align: center;
+    }
+
+    .curio-hours-div p {
+        /* font-size: 16px; */
+        text-align: center;
     }
 
     .address-div {
@@ -442,8 +453,8 @@ footer {
 
     .construction {
         width: 100vw;
-        height: 10vh;
-        background-color: yellow;
+        height: 6vh;
+        background-color: #FFE787;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -475,6 +486,8 @@ footer {
     
     .announcement-div p {
         margin: 32px;
+        font-size: 14px;
+        width: 80vw;
     }
     
     .gift-card-link-div {
@@ -493,6 +506,7 @@ footer {
     .gift-card-link-div h2 {
         color: white;
         text-align: center;
+        font-size: 18px;
     }
 
     .hours-content-wrapper iframe {
@@ -517,6 +531,7 @@ footer {
         display: inline-block;
         text-decoration: none;
         margin: 20px;
+        text-align: center;
     }
 
     
